@@ -3,12 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	a := 12
-	b := 20
-	
+	var o int
+	fmt.Scan(o)
 
-	c := a + b
-	
+	b := 20
+
+	c := o + b
+
 	fmt.Println(c)
-	
+
 }
